@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Hanifan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #A8D5BA;  /* Mint Green */
+            --secondary-color: #FFCB77; /* Peachy Yellow */
+            --accent-color: #F9ED69;    /* Soft Yellow */
+            --text-color: #333;
+            --bg-color: #fff;
+            --card-bg-color: #f4f4f4;
+            --heading-color: #0d3b33;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 8px solid var(--accent-color);
+        }
+
+        header h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 3.5em;
+            font-weight: 700;
+            color: var(--heading-color);
+        }
+
+        header p {
+            font-size: 1.3em;
+            font-weight: 500;
+            color: var(--heading-color);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background-color: var(--card-bg-color);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.8em;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        footer {
+            background-color: var(--secondary-color);
+            color: var(--heading-color);
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        footer p {
+            font-size: 1.1em;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hanifan</h1>
+    <p>Portofolio Saya - Nonton Film & Digital Enthusiast</p>
+</header>
+
+<div class="container">
+    <div class="grid-container">
+        <div class="card">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Nama saya <strong>Hanifan</strong>. Saya memiliki passion besar dalam berbagai bidang seperti <strong>sejarah</strong>, <strong>seni</strong>, <strong>politik</strong>, dan <strong>diplomasi</strong>. Saya percaya bahwa pemahaman tentang sejarah dan seni tidak hanya memperkaya wawasan, tetapi juga memberikan perspektif yang lebih luas dalam memandang dunia.</p>
+            <p>Saya juga tertarik pada politik dan diplomasi, karena kedua hal ini memainkan peran besar dalam hubungan internasional dan pembangunan dunia. Saya selalu ingin belajar lebih banyak tentang bagaimana kebijakan dan interaksi antarnegara membentuk kehidupan kita sehari-hari.</p>
+        </div>
+        <div class="card">
+            <h2>Hobi</h2>
+            <p>Saya adalah penggemar berat film, terutama Hollywood Rom-Com, Thriller, dan Drama. Film-film dengan cerita yang penuh emosi, ketegangan, dan cerita cinta yang manis selalu menarik perhatian saya. Beberapa favorit saya termasuk film dengan alur yang memadukan ketegangan dan emosi yang dalam, seperti film thriller yang menegangkan namun penuh kejutan.</p>
+            <p>Saya juga suka membaca buku, terutama dalam genre Science Fiction, Fantasi, Sejarah, dan Politik. Buku-buku tentang dunia fiksi ilmiah dan fantasi sering kali membawa saya ke dunia yang penuh imajinasi dan keajaiban. Sementara itu, buku tentang sejarah dan politik memberi saya wawasan yang lebih dalam tentang peristiwa-peristiwa besar yang membentuk dunia kita, serta bagaimana kekuatan politik memengaruhi kehidupan sosial dan ekonomi.</p>
+            <p>Ketika saya sedang mencari buku baru, saya cenderung memilih yang dapat memperkaya pengetahuan dan imajinasi saya, baik itu tentang dunia yang nyata maupun yang terbayangkan.</p>
+        </div>
+        <div class="card">
+            <h2>Asal Sekolah</h2>
+            <p>Saya berasal dari <strong>SMP Al Irsyad Purwokerto</strong>, tempat saya memulai perjalanan pendidikan yang penuh dengan pengalaman dan kenangan tak terlupakan.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Hanifan. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>
+
